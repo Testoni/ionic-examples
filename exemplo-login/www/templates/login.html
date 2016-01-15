@@ -1,0 +1,21 @@
+<ion-view view-title="Login" name="login-view">
+  <ion-content class="padding">
+	  <div style="text-align: center;">
+		  <img src="img/mo.png" style="width: 49%;">
+	  </div>
+      <div class="list list-inset">
+          <label class="item item-input">
+              <input type="text" placeholder="Username" ng-model="data.username">
+          </label>
+          <label class="item item-input">
+              <input type="password" placeholder="Password" ng-model="data.password">
+          </label>
+      </div>
+      <button class="button button-block button-balanced" ng-click="login()">Login</button>
+  </ion-content>
+  <div class="bar bar-footer bar-stable">
+  <div class="title">
+	  <a class="button button-icon icon ion-settings"></a>Powered by: Testoni
+  </div>
+</div>
+</ion-view>
