@@ -1,0 +1,47 @@
+Instalar node
+
+npm install -g ionic
+
+npm install -g cordova ionic
+
+ionic start meuProjeto
+
+ionic serve (subir o servidor)
+
+
+ionic start TesteMenu sidemenu
+
+ionic serve --lab
+
+----
+
+ionic start IonicTask blank
+
+
+-----------------
+
+
+Compilando a aplicação para android
+
+ionic platform add android ou ios
+
+ionic build android
+(precisa ser instalado o java sdk e android sdk)
+http://www.oracle.com/technetwork/java/javase/downloads/jdk8-downloads-2133151.html
+https://developer.android.com/sdk/index.html#Other
+
+
+ionic run android (compila a aplicacao, copia pro celular e starta)
+
+-----------
+
+dar build:
+
+ionic build --release android
+
+----
+assinar o app:
+
+criar chave criptografica
+https://www.youtube.com/watch?v=GNYSDurgxA0
+inioc run android -l -c (abre o console log e debugar)
